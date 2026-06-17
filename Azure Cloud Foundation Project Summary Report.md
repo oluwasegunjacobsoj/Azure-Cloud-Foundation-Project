@@ -194,3 +194,9 @@ Scenario C: Deployed Webpage Fails with ERR_CONNECTION_TIMED_OUT
 . Step-by-Step Fix:
 	a. Add an inbound security group rule mapping destination port 80 to Allow.
 	b. Connect to your VM command prompt and run sudo apt update && sudo apt install nginx -y to turn on the background web service
+
+
+10. External Support Resources & Links
+a. Official Azure Free Tier Documentation Portal - azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount
+b. Microsoft Learn: Manage Azure Costs & Budgets -learn.microsoft.com/en-us/azure/cost-management-billing/
+c. Azure Architecture Documentation: Shared Responsibility Guidance - learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility
